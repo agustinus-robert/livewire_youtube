@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/wire', [App\Http\Livewire\Episode1\Wire::class, '__invoke']);
+Route::get('/wire',[app\Http\Livewire\Episode1\Wire::class, '__invoke']);
