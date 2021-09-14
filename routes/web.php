@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/wire', [\App\Http\Livewire\Episode1\Wire::class,'__invoke']);
+Route::get('/actions', [\App\Http\Livewire\Episode2\Actions::class,'__invoke']);
