@@ -62,6 +62,8 @@
                 margin-bottom: 30px;
             }
         </style>
+        
+        @livewireStyles
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -96,5 +98,7 @@
                 </div>
             </div>
         </div>
+        
+         @livewireScripts
     </body>
 </html>
