@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/wire', [App\Http\Livewire\Episode1\Wire::class, '__invoke']);
